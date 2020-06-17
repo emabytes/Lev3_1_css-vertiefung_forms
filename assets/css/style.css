@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+    box-shadow: 0 10px 40px -14px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+#form-header {
+    color: white;
+    background: rgb(33, 122, 173);
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1em;
+    margin: 0;
+}
+
+p {
+    padding-top: 15px;
+    color: rgb(33, 122, 173);
+    font-size: 1.1em;
+}
+
+p span {
+    width: 30px;
+    background-color: rgb(33, 122, 173);
+    color: white;
+    border-radius: 50%;
+    font-size: 1.4em;
+    display: inline-block;
+    text-align: center;
+    margin-left: -5px;
+}
+
+.input-group {
+    background: rgba(228, 228, 228, 0.4);
+    width: 90%;
+    margin: 10px auto;
+    padding: 35px 0;
+    border-radius: 5px;
+}
+
+label, input[type="text"], input[type="email"], input[type="number"], input[type="password"], textarea {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+input, textarea {
+    padding: 5px 0;
+    border: 1px solid lightgrey;
+    outline: none;
+}
+
+.checkbox-group {
+    text-align: center;
+    font-size: 0.8em;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+#submit {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    background: rgb(33, 122, 173);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.btn:hover {
+    background-color: rgb(17, 72, 104);
+}
